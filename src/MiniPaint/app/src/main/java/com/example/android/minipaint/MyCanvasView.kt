@@ -97,5 +97,7 @@ class MyCanvasView(context: Context) : View(context) {
         invalidate()
     }
 
-    private fun touchUp() {}
+    private fun touchUp() {
+        path.reset()
+    }
 }
