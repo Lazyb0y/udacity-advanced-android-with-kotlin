@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
     private fun scaler() {
         val scaleX = PropertyValuesHolder.ofFloat(View.SCALE_X, 4f)
         val scaleY = PropertyValuesHolder.ofFloat(View.SCALE_Y, 4f)
-        
+
         val animator = ObjectAnimator.ofPropertyValuesHolder(star, scaleX, scaleY)
         animator.repeatCount = 1
         animator.repeatMode = ObjectAnimator.REVERSE
@@ -113,6 +113,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun fader() {
+        val animator = ObjectAnimator.ofFloat(star, View.ALPHA, 0f)
+        animator.repeatCount = 1
+        animator.repeatMode = ObjectAnimator.REVERSE
+        animator.disableViewDuringAnimation(fadeButton)
+        animator.start()
     }
 
     private fun colorizer() {
