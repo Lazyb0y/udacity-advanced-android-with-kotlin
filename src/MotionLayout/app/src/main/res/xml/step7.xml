@@ -26,10 +26,9 @@
 
         <!-- Fix OnSwipe by changing touchAnchorSide -->
         <OnSwipe
-                app:touchAnchorId="@id/moon"
-                app:touchAnchorSide="bottom"
-        />
-
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@id/moon"
+            app:touchAnchorSide="right" />
 
         <KeyFrameSet>
             <KeyPosition
