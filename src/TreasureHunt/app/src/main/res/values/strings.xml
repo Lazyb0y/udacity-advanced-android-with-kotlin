@@ -44,6 +44,7 @@
     <string name="pier_39_hint">Go to a pier popular for tourist attractions, carnival games, fresh fish, and delicious sourdough bread!</string>
     <string name="union_square_hint">Go to a square named after Civil War rallies held there, but now known for its amazing shopping!</string>
     <string name="lombard_street_hint">Go to the most crooked street in the City</string>
+    <string name="home_hint">Go to the office you idiot</string>
 
     <!-- Geofence Locations -->
     <string name="golden_gate_bridge_location">at the Golden Gate bridge</string>
@@ -51,6 +52,7 @@
     <string name="pier_39_location">at Pier 39</string>
     <string name="union_square_location">in Union Square</string>
     <string name="lombard_street_location">at Lombard Street</string>
+    <string name="home_location">at your Home</string>
 
     <!-- Error strings -->
     <string name="geofence_not_available">Geofence service is not available now</string>
