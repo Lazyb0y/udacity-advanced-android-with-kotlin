@@ -76,6 +76,7 @@ dependencies {
     testImplementation "junit:junit:$junitVersion"
     testImplementation "org.hamcrest:hamcrest-all:$hamcrestVersion"
     testImplementation "androidx.test:core-ktx:$androidXTestCoreVersion"
+    testImplementation "androidx.arch.core:core-testing:$archTestingVersion"
     testImplementation "androidx.test.ext:junit-ktx:$androidXTestExtKotlinRunnerVersion"
     testImplementation "org.robolectric:robolectric:$robolectricVersion"
 
