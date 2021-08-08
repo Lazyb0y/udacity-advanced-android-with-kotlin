@@ -38,7 +38,7 @@ class FakeTestRepository : TasksRepository {
     }
 
     override suspend fun saveTask(task: Task) {
-        TODO("Not yet implemented")
+        tasksServiceData[task.id] = task
     }
 
     override suspend fun completeTask(task: Task) {
