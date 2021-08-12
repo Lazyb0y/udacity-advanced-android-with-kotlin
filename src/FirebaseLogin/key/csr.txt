@@ -1,0 +1,22 @@
+D:\Sources\github\GitHub\udacity-advanced-android-with-kotlin\src\FirebaseLogin>"C:\Program Files\Java\jre1.8.0_291\bin\keytool.exe" -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
+Enter keystore password:
+Alias name: androiddebugkey
+Creation date: Apr 26, 2021
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=US, O=Android, CN=Android Debug
+Issuer: C=US, O=Android, CN=Android Debug
+Serial number: 1
+Valid from: Mon Apr 26 10:50:24 BDT 2021 until: Wed Apr 19 10:50:24 BDT 2051
+Certificate fingerprints:
+         SHA1: 77:C4:58:55:A3:CF:43:65:AC:DE:1E:C7:5A:A4:FE:01:15:C9:BA:D5
+         SHA256: B6:28:AF:2E:5E:6B:7C:5F:5D:77:2E:6F:7A:2B:43:A5:1A:0F:11:D1:DC:3F:BA:D7:39:39:4F:5C:1C:0C:7C:AE
+Signature algorithm name: SHA1withRSA (weak)
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 1
+
+Warning:
+The certificate uses the SHA1withRSA signature algorithm which is considered a security risk. This algorithm will be disabled in a future update.
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore C:\Users\ahame\.android\debug.keystore -destkeystore C:\Users\ahame\
+.android\debug.keystore -deststoretype pkcs12".
